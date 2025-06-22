@@ -34,24 +34,24 @@ app.get('/proxy', async (req, res) => {
 app.get('/', (req, res) => {
   res.json({
     status: "✅ API Active",
-    message: "🚀 ইন্সটাগ্রাম মিডিয়া ডাউনলোডার এপিআই চালু রয়েছে!",
-    developer: "👨‍💻 Developed by: 𝐖𝐎𝐎𝐃𝐜𝐫𝐚𝐟𝐭",
+    message: "🚀 worksbeyond",
+    developer: "👨‍💻 Developed by: WorksBeyond",
     version: "🔖 v1.007",
     channels: [
       {
         name: "📢 Updates Channel",
-        link: "https://t.me/Opleech_WD"
+        link: "https://t.me/AirWorksbeyond"
       },
       {
         name: "💬 Support",
-        link: "https://t.me/Farooq_is_king"
+        link: "https://t.me/AirWorksbeyond"
       }
     ],
     usage: "📥 POST /api/instagram with JSON { url: '<instagram-url>' }"
   });
 });
 
-// ✅ Local development এ চালানোর জন্য
+// ✅ Local development 
 if (process.env.NODE_ENV !== 'production') {
   const PORT = process.env.PORT || 3000;
   app.listen(PORT, () => {
