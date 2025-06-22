@@ -25,8 +25,8 @@ Made with ❤️ by **WOODcraft**
 
 ### 🔸 Clone the Project
 ```bash
-git clone https://github.com/your-username/instagram-downloader-api.git
-cd instagram-downloader-api
+git clone https://github.com/SudoR2spr/Instagram-media-downloader-API.git
+cd Instagram-media-downloader-API
 ```
 
 ### 🔸 Install Dependencies
